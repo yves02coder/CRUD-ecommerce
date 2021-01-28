@@ -1,8 +1,11 @@
 <?php session_start(); 
 require('navbar.php');
 ?>
-<h1 class="fadeInDown text-center" style="color: chartreuse;"><b>BIENVENUE A SCAR-LAND</b></h1>
-<?php
+
+<body
+    style="background-image: url('https://media.giphy.com/media/KxmgCycxXyohtRU5vS/giphy.gif');background-size:cover;">
+    <h1 class="fadeInDown text-center" style="color: chartreuse;"><b>BIENVENUE A SCAR-LAND</b></h1>
+    <?php
 try
 {
     // On se connecte à MySQL
@@ -63,3 +66,5 @@ if(isset($_POST['description_produit'])&& !empty($_POST['description_produit']))
             }else{
                 echo'merci de remplir tout les champs';
             }
+            ?>
+</body>

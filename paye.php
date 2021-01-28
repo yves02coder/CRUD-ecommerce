@@ -84,7 +84,5 @@ include('navbar.php');
         </div>
     </div>
 </div>
-<a href="menu.php" class="btn btn-success">Menu</a>
-<a href="index.php" class="btn btn-success">les articles</a>
-<a href="panier.php" class="btn btn-success">panier</a>
-<a href="catalog.php" class="btn btn-success">catalogue</a>
+<a href="index.php" class="btn btn-success">retour</a>
+

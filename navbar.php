@@ -30,6 +30,9 @@
                     <li class="nav-item m-2">
                         <a class="btn btn-info" href="ajouter.php">AJOUTER</a>
                     </li>
+                    <li class="nav-item m-2">
+                        <a class="btn btn-primary" href="paye.php">PAYER</a>
+                    </li>
 
                     <li class="nav-item" id="search">
                         <a href="https://www.nike.com/fr/w/hommes-jordan-chaussures-37eefznik1zy7ok?cp=24158993452_search_%7Cbasket%20jordan%20homme%7C10690196384%7C107180266964%7Ce%7Cc%7CFR%7Cstyles%7C452608684253&gclsrc=aw.ds&ds_rl=1252249&gclid=CjwKCAiAr6-ABhAfEiwADO4sff6gOEHv73k5GTpDn1b507RTNuDC4RsfEq_yPN5H5fbxJvd1zilevBoCsDoQAvD_BwE&gclsrc=aw.ds"
@@ -54,7 +57,9 @@
 
     </header>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>

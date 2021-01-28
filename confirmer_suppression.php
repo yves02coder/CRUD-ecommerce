@@ -3,6 +3,11 @@
 include('navbar.php');
 ?>
 
+<body
+    style="background-image: url('https://media.giphy.com/media/3ohuP9dTk8eoIboddS/giphy.gif');background-size:cover;">
+
+</body>
+
 
 <?php
 
@@ -21,11 +26,11 @@ try
 
 $sql="DELETE  FROM id_produit WHERE id_produit=?";
 $id = $_GET['id'];
-var_dump($id);
+//var_dump($id);
 $suppression=$db->prepare($sql);
 $suppression->bindParam(1,$id);
 $resultat=$suppression->execute();
-var_dump($resultat);
+//var_dump($resultat);
 
 if($resultat){
 
