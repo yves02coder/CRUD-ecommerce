@@ -1,15 +1,14 @@
-<?php session_start() ?>
+<?php //session_start()
+?>
 
 <?php
-//$prenom=$_POST['prenom'];
 
-//$_SESSION['prenom'] =$prenom;
 
 
 ?>
 
 <!DOCTYPE html>
-<html lang="en" style="margin-top:40px;">
+<html lang="en" style="margin-top:2px;">
 
 <head>
     <link rel="stylesheet" href="style.css">
@@ -32,16 +31,17 @@
         <h1 class="fadeInDown text-center" style="color: chartreuse;"><b>BIENVENUE A SCAR-LAND</b></h1>
         <div class="container text-center">
             <h1 class="fadeInDown  text-center " style="color: chartreuse;"><b> </b></h1>
-            <h2 class="flash" style="color: white;"><b> Veuillez entrer votre prénom </b></h2>
+            <p class="flash" style="color: white;"><b> Veuillez remplir les champs</b></p>
 
-            <form action="index.php" method="post">
-                <p>
-                    <input type="text" name="prenom" required />
-                    <input type="submit" value="VALIDER" />
-                </p>
-                <h3><label>j'aime les chaussures<input type="checkbox" name="basket" required></input></label></h3>
+            <form action="connexion.php" method="post">
+                <div class="login text-center">
+                    <label for="email" type="email" name="email"></label>
+                    <b class="paragraph">email<input type="email" name="email" required /></b>
+                    <b class="paragraph">password<input type="password" name="password" required /></b>
 
 
+                    <input type="submit" value="connexion" class="btn btn-info mt-2" />
+                </div>
             </form>
 
         </div>

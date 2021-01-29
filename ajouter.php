@@ -21,9 +21,12 @@ try
 
 
 ?>
-<h1 class="fadeInDown text-center" style="color: chartreuse;"><b>BIENVENUE A SCAR-LAND</b></h1>
+<h1 class="fadeInDown text-center" style="color: chartreuse;"><b>AJOUTER VOS PRODUITS ICI</b></h1>
+<h2 class="flash">bonjour:<?php echo $_SESSION['email'] ?></h2>
+<p class="text-center flash"><img width="10%" src="https://www.gif-maniac.com/gifs/52/52100.gif" /></p>
 
-<h2 class="text-center">Ajouter vos produits ici</h2>
+
+<h2 class="text-center"></h2>
 <form method="post" action="enregistrer_produit.php">
     <div class="container m5">
         <div class="form-group">

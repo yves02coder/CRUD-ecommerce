@@ -3,6 +3,20 @@
 
     margin-left: 150px;
 }
+.paragraph
+{
+    color: white;
+}
+.login
+{
+    border: 1px solid rgb(179, 197, 19);
+    width: 20%;
+    margin-left: 40%;
+}
+.image
+{
+    width: 10%;
+}
 h1{
     color: chartreuse;
     text-shadow: white;
@@ -66,10 +80,10 @@ h3
         .flash {
             -webkit-animation-name: flash;
             animation-name: flash;
-            -webkit-animation-duration: 2s;
+            -webkit-animation-duration: 1s;
             animation-duration: 5s;
             -webkit-animation-fill-mode: both;
-            animation-fill-mode: both;
+            animation-fill-mode: none;
             }
             @-webkit-keyframes flash {
             0%, 50%, 100% {
@@ -114,3 +128,4 @@ h3
                 box-shadow: 0 5px rgb(236, 229, 229);
                 transform: translateY(4px);
               }
+             

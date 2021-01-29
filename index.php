@@ -10,7 +10,7 @@
        // $prenom=$_POST['prenom'];
         //$_SESSION['prenom']=$prenom;
         
-        if(isset($_POST['basket'])){
+        if(isset($_POST['email'])){
             
          echo('<p class="text-center"><img src="https://thumbs.gfycat.com/RelievedRectangularIcefish-size_restricted.gif"></p>');
         }
@@ -18,6 +18,8 @@
         ?>
 
         <h1 class="fadeInDown text-center" style="color: chartreuse;"><b>BIENVENUE A SCAR-LAND</b></h1>
+        <h2 class="flash">bonjour:<?php echo $_SESSION['email'] ?></h2>
+        <p class="text-center flash"><img width="10%" src="https://www.gif-maniac.com/gifs/52/52100.gif" /></p>
 
         <!--<h3 style="color:blue;" class="fadeInDown text-center"></br> Bonjour et bienvenue
         </h3>-->

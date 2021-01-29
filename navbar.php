@@ -39,7 +39,7 @@
                             class="btn btn-dark  m-2">RECHERCHE</a>
                     </li>
                     <li class="nav-item" style="margin-left: 100%;">
-                        <a href="menu.php" class="btn btn-danger">DECONNEXION</a>
+                        <a href="deconnexion.php" class="btn btn-danger">DECONNEXION</a>
                     </li>
 
                 </ul>
