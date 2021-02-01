@@ -6,6 +6,8 @@ include('navbar.php');
 ?>
 
 <h1 style="color:blue;" class="fadeInDown text-center"></br>Passons a la caisse</h1>
+<h2>bonjour:<?php echo $_SESSION['email'] ?></h2>
+<!--<img width="10%" src="https://www.gif-maniac.com/gifs/52/52100.gif" />-->
 
 <div class="row">
     <div class="col-75">
@@ -85,4 +87,3 @@ include('navbar.php');
     </div>
 </div>
 <a href="index.php" class="btn btn-success">retour</a>
-

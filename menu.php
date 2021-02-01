@@ -8,7 +8,7 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en" style="margin-top:2px;">
+<html lang="en">
 
 <head>
     <link rel="stylesheet" href="style.css">
@@ -24,6 +24,11 @@
 
 <body
     style="background-image: url('https://cdn.lowgif.com/small/bf3dc9fff9395a5f-image-result-for-black-background-animated-gif-pip.gif');background-size:cover;">
+    <nav class="navbar navbar">
+        <div class="container-fluid">
+            <a href="confirm_inscription.php" class="btn btn-info button" id="reconnexion">inscrivez vous</a>
+        </div>
+    </nav>
 
     <?php
 ?>
@@ -42,7 +47,9 @@
 
                     <input type="submit" value="connexion" class="btn btn-info mt-2" />
                 </div>
+
             </form>
+
 
         </div>
 

@@ -3,9 +3,21 @@
 
     margin-left: 150px;
 }
+.img{
+    margin-left: 38%;
+}
+#reconnexion
+{
+    margin-left:80%;
+}
 .paragraph
 {
     color: white;
+}
+.bouton
+{
+    margin-left: 50%;
+    width: 10px;
 }
 .login
 {
@@ -108,8 +120,8 @@ h3
             .button{
 
                 display: inline-block;
-                padding: 15px 25px;
-                font-size: 24px;
+                padding: 15px 20px;
+                font-size: 15px;
                 cursor: pointer;
                 text-align: center;
                 text-decoration: none;

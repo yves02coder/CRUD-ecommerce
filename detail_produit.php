@@ -31,7 +31,7 @@ $resultat=$req->fetch();
 if($resultat){
 ?>
     <h2>bonjour:<?php echo $_SESSION['email'] ?></h2>
-    <img src="https://www.gif-maniac.com/gifs/52/52100.gif" />
+    <!--<img width="10%" src="https://www.gif-maniac.com/gifs/52/52100.gif" />-->
     <ul class="liste-detail">
         <li class="liste-detail"><?php echo $resultat['nom_produit']?></li>
         <li><?php echo $resultat['id_produit']?></li>

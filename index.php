@@ -19,7 +19,7 @@
 
         <h1 class="fadeInDown text-center" style="color: chartreuse;"><b>BIENVENUE A SCAR-LAND</b></h1>
         <h2 class="flash">bonjour:<?php echo $_SESSION['email'] ?></h2>
-        <p class="text-center flash"><img width="10%" src="https://www.gif-maniac.com/gifs/52/52100.gif" /></p>
+        <!--<p class="text-center flash"><img width="10%" src="https://www.gif-maniac.com/gifs/52/52100.gif" /></p>-->
 
         <!--<h3 style="color:blue;" class="fadeInDown text-center"></br> Bonjour et bienvenue
         </h3>-->
@@ -38,7 +38,7 @@
                 die("Erreur de connexion PDO mySQL:".$exception-> getMessage());
         }
         //requète sql stocké dans une variable
-        $sql="SELECT * FROM id_produit";
+        $sql="SELECT `id_produit`, `nom_produit`, `description_produit`, `image_produit`, `prix_produit` FROM `id_produit` ORDER BY id_produit DESC ";
         //execution requète après creation stock connexion PDO
 
 
@@ -63,11 +63,11 @@
                 </div>
                 <div class="col-3 mt-2">
                     <a href="detail_produit.php?id=<?php echo  $row['id_produit']  ?>" id=""
-                        class="btn btn-warning button p-2">detail</a>
+                        class="btn btn-warning button ml-2">detail</a>
                     <a href="supprimer_produit.php?id=<?php echo  $row['id_produit']  ?>" id=""
-                        class="btn btn-danger button p-2">delete</a>
+                        class="btn btn-danger button ml-2">delete</a>
                     <a href="update.php?id=<?php echo  $row['id_produit']  ?>" id=""
-                        class="btn btn-info button p-2">update</a>
+                        class="btn btn-info button ml-2">update</a>
 
                 </div>
 

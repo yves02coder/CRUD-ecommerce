@@ -16,7 +16,7 @@
     <header></header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid m-2">
-            <a class="navbar-brand btn btn-warning  m-2" href="menu.php">CONNEXION</a>
+            <!-- <a class="navbar-brand btn btn-warning  m-2" href="menu.php">CONNEXION</a>-->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -24,14 +24,14 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active btn btn-success  m-2" aria-current="page"
+                        <a class="nav-link active btn btn-warning  m-2" aria-current="page"
                             href="index.php">BOUTIQUE</a>
                     </li>
                     <li class="nav-item m-2">
                         <a class="btn btn-info" href="ajouter.php">AJOUTER</a>
                     </li>
                     <li class="nav-item m-2">
-                        <a class="btn btn-primary" href="paye.php">PAYER</a>
+                        <a class="btn btn-success" href="paye.php">PAYER</a>
                     </li>
 
                     <li class="nav-item" id="search">
@@ -40,6 +40,7 @@
                     </li>
                     <li class="nav-item" style="margin-left: 100%;">
                         <a href="deconnexion.php" class="btn btn-danger">DECONNEXION</a>
+
                     </li>
 
                 </ul>
